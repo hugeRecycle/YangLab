@@ -22,7 +22,7 @@
   	#goTop{font-size: 40px;position: fixed; bottom: 15px; right: 5px; cursor: pointer;}
 
   	/*menu*/
-  	.menu{position: absolute;width: 760px;top: 45px; left: 40%; display: flex;flex-direction: row;flex-wrap: nowrap;list-style: none;font-family: Oswald,Sans-Serif;}
+  	.menu{width: 100%; display: flex;flex-direction: row;flex-wrap: nowrap;list-style: none;font-family: Oswald,Sans-Serif;}
   	.menu li {font-size: 24px;font-weight: blod;height: 40px;line-height: 40px;text-align: center; background: #efefef; flex: 1;border: 1px solid #fff;}
   	.menu li a{color: #000; display: block; text-decoration: none;transition: font-size 0.25s linear, width 0.25s linear;}
   	.menu li.active{background: #000;}
@@ -32,12 +32,10 @@
 
   	h3.title{text-align: center;font-size: 56px;font-weight: bold;color: #FF8D11;padding: 20px;text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;}
   	/* welcome */
-  	.welcome {overflow: hidden;background: #f9f9f9;}
-    .welcomeBox{position: relative; width: 1080px; margin: 80px auto;}
-    .welcomeBox .welcomeBg{width: 60%;}
-  	.welcome .cont{position: relative; margin: -220px 0 0 400px; background: #fff;}
-    .welcome .cont h3{text-align: left;padding-left: 80px;}
-  	.welcome .cont p{color: #000;padding: 0 40px 40px 40px;font-size: 18px;line-height: 180%;}
+  	.welcome {position: relative;height: 475px; overflow: hidden;}
+    .welcome .cont{position: absolute; z-index: 100;top: 40px;width: 960px; left: 50%;margin-left: -480px}
+    .welcome .cont p{color: #FAFAFA;font-size: 32px;font-weight: bold;}
+    .welcome video{margin-top: -10%;}
 
   	/* home news */
   	.news .cont{width: 900px;padding-bottom: 30px;margin: 0 auto; text-align: center;}
@@ -120,7 +118,7 @@
   	.newsList{width: 1080px; margin: 0 auto; overflow: hidden;}
   	.newsList h3{color: #FF8D11;font-size:72px; text-align: center; padding: 30px;}
   	.newsList dl{overflow: hidden; padding: 20px 0; width: 33%; float: left;}
-  	.newsList dt{text-align: center;width: 360px; height: 230px;overflow: hidden;margin: 0 auto;}
+  	.newsList dt{text-align: center;overflow: hidden;margin: 0 10px;}
   	.newsList dt img{width: 360px; height: 230px;vertical-align: middle; object-fit: cover;transition: .4s;}
     .newsList dt img:hover{transform: scale(1.1);}
   	.newsList dd{padding: 10px 20px;}
