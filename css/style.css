@@ -48,6 +48,7 @@
   	/* highlight */
   	.highlight {position: relative;height: 1025px; overflow: hidden;background: #f9f9f9;}
   	.highlight .cont{position: absolute; z-index: 100;top: 40px;width: 960px; left: 50%;margin-left: -480px}
+    .highlight video{min-width: 1825px;}
   	.highlight .swiper {width: 610px;height: 820px;}
     .highlight .swiper-slide {background-position: center; background-size: cover;}
     .highlight .swiper-slide img { display: block;width: 100%;}
@@ -74,36 +75,31 @@
   	.researchList dd em{font-weight: bold;    color: #3D9BE9; font-style: normal;}
 
   	/* --- Pepple --- */
-  	.peopleWrap{width: 960px;margin: 50px auto;}
-  	.peopleWrap h3{color: #FF8D11;font-size:72px; text-align: center; padding: 30px;}
-  	.peopleWrap h4{color: #0F12D6; font-size:40px; text-align: center; padding: 30px;}
-  	.peopleWrap h5{color: #0F12D6; font-size:20px; text-align: center; padding: 30px;}
-  	.peopleWrap h6{color: #E86107; font-size:18px; padding-top: 20px;}
-  	.peopleWrap p{ font-size:18px; line-height: 200%;font-family: "playfair display", serif;}
-  	.PIinfo{background: #f8f8f8;  padding: 30px;border-radius: 3px;}
-  	.PIinfo dl{overflow: hidden; }
-  	.PIinfo dt{float: left; margin-right: 30px;}
-  	.PIinfo dt img{width: 380px; margin: 10px;}
+  	.peopleWrap{width: 1200px; margin: 50px auto;}
+    .peopleWrap h3{color: #FF8D11;font-size:72px; text-align: center; padding: 30px;}
+    .peopleWrap h4{color: #0F12D6; font-size:40px; text-align: center; padding: 30px;}
+    .peopleWrap h5{color: #0F12D6; font-size:20px; text-align: center; padding: 30px;}
+    .peopleWrap h6{color: #E86107; font-size:18px; padding-top: 20px;}
+    .peopleWrap p{ font-size:18px; line-height: 200%;font-family: "playfair display", serif;}
+    .PIinfo{background: #f8f8f8; width: 980px; margin: 0 auto; padding: 30px;border-radius: 3px;}
+    .PIinfo dl{overflow: hidden; }
+    .PIinfo dt{float: left; margin-right: 30px;}
+    .PIinfo dt img{width: 380px; margin: 10px;}
     .PIinfo dd{padding-bottom: 30px; line-height: 150%;}
-  	.PIinfo dd.title{text-align: center;font-size:22px;font-weight: bold;padding: 25px;}
+    .PIinfo dd.title{text-align: center;font-size:22px;font-weight: bold;padding: 25px;}
     .PIinfo dd p{line-height: 150%; text-indent: 2em;}
-  	.PIinfo .honors{padding:0 10px 10px;font-size:18px;line-height: 180%;}
-  	.PIinfo h5{font-size:24px;color:#1405A7;}
-  	.postdocs{overflow: hidden; display: flex;}
-  	.postdocs dl{flex: 1; background: #f8f8f8;  margin: 20px;border-radius: 3px; padding: 15px;font-family: "playfair display", serif;font-size: 18px;}
-  	.postdocs dt{ text-align: center;}
-  	.postdocs dt img{width: 190px;}
-  	.postdocs dd{line-height: 1.8em;padding: 0 20px;}
-  	.postdocs .title{text-align: center;padding: 5px;font-size:22px;font-family: Oswald,Sans-Serif;}
-    .postdocs .name{text-align: center; font-size: 20px;padding: 5px;}
-  	.graduate{text-align: center;}
-  	.graduate img{width: 350px;}
-  	.assistants{overflow: hidden; }
-  	.assistants dl{width: 450px; margin: 0 auto;background: #f8f8f8; border-radius: 3px; padding: 15px;font-family: "playfair display", serif;font-size: 18px;}
-  	.assistants dt{ text-align: center;}
-  	.assistants dt img{width: 190px;}
-  	.assistants dd{line-height: 1.8em;padding: 0 20px;}
-  	.assistants .title{text-align: center;padding: 15px;font-size:22px;font-family: Oswald,Sans-Serif;}
+    .PIinfo .honors{padding:0 10px 10px;font-size:18px;line-height: 180%;}
+    .PIinfo h5{font-size:24px;color:#1405A7;}
+    .peopleBox{overflow: hidden; display: flex;flex-wrap: wrap;margin: 0 auto;}
+    .peopleBox dl{width: 380px; background: #f8f8f8;  margin: 20px auto;border-radius: 3px; padding: 15px;font-family: "playfair display", serif;font-size: 18px;}
+    .peopleBox dt{ text-align: center;}
+    .peopleBox dt img{width: 190px;}
+    .peopleBox dd{line-height: 1.8em;padding: 0 20px;}
+    .peopleBox .title{text-align: center;padding: 5px;font-size:22px;font-family: Oswald,Sans-Serif;}
+    .peopleBox .name{text-align: center; font-size: 20px;padding: 5px;}
+    .graduate{text-align: center;}
+    .graduate dl img{width: 350px;}
+    .assistants dl{width: 350px; margin: 10px;}
   	
 
   	/* --- Publications ---*/
