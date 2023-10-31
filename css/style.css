@@ -106,7 +106,7 @@
   	
 
   	/* --- Publications ---*/
-  	.publicationsList{width: 1080px;margin: 50px auto;font-family: sans-serif, Arial;}
+  	.publicationsList{width: 1080px;margin: 50px auto;font-family: inherit;}
   	.publicationsList .warning{color: #E86107;}
   	.publicationsList .warning b{color: #E86107;}
   	.publicationsList h3{color: #FF8D11;font-size:72px; text-align: center; padding: 30px;}
@@ -117,7 +117,7 @@
   	.newsList{width: 1080px; margin: 0 auto; overflow: hidden;}
   	.newsList h3{color: #FF8D11;font-size:72px; text-align: center; padding: 30px;}
   	.newsList dl{overflow: hidden; padding: 20px 0; width: 33%; float: left;}
-  	.newsList dt{text-align: center;width: overflow: hidden;margin: 0 10px;}
+  	.newsList dt{text-align: center;width: 100%; overflow: hidden;margin: 0 10px;}
   	.newsList dt img{width: 360px; height: 230px;vertical-align: middle; object-fit: cover;transition: .4s;}
     .newsList dt img:hover{transform: scale(1.1);}
   	.newsList dd{padding: 10px 20px;}
