@@ -89,11 +89,11 @@
   	.PIinfo dt img{width: 380px; margin: 10px;}
     .PIinfo dd{padding-bottom: 30px; line-height: 150%;}
   	.PIinfo dd.title{text-align: center;font-size:22px;font-weight: bold;padding: 25px;}
-    .PIinfo dd p{line-height: 150%; text-indent: 2em;}
+    .PIinfo dd p{line-height: 150%;}
   	.PIinfo .honors{padding:0 10px 10px;font-size:18px;line-height: 180%;}
   	.PIinfo h5{font-size:24px;color:#1405A7;}
   	.peopleBox{overflow: hidden; display: flex;flex-wrap: wrap;margin: 0 auto;}
-  	.peopleBox dl{width: 380px; background: #f8f8f8;  margin: 20px auto;border-radius: 3px; padding: 15px;font-family: inherit;font-size: 18px;}
+  	.peopleBox dl{width: 380px; background: #f8f8f8;  margin: 20px 95px;border-radius: 3px; padding: 15px;font-family: inherit;font-size: 18px;}
   	.peopleBox dt{ text-align: center;}
   	.peopleBox dt img{width: 190px;}
   	.peopleBox dd{line-height: 1.8em;padding: 0 14px;}
