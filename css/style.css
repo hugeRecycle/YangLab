@@ -100,6 +100,7 @@
   	.peopleBox .title{text-align: center;padding: 5px;font-size:22px;font-family: inherit;}
     .peopleBox .name{text-align: center; font-size: 20px;padding: 5px;}
   	.graduate{text-align: center;}
+	.graduate dl{margin: 20px auto;}
   	.graduate dl img{width: 350px;}
   	.assistants dl{width: 350px; margin: 10px;}
   	
