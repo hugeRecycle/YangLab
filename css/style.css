@@ -96,7 +96,7 @@
   	.peopleBox dl{width: 380px; background: #f8f8f8;  margin: 20px auto;border-radius: 3px; padding: 15px;font-family: inherit;font-size: 18px;}
   	.peopleBox dt{ text-align: center;}
   	.peopleBox dt img{width: 190px;}
-  	.peopleBox dd{line-height: 1.8em;padding: 0 20px;}
+  	.peopleBox dd{line-height: 1.8em;padding: 0 14px;}
   	.peopleBox .title{text-align: center;padding: 5px;font-size:22px;font-family: inherit;}
     .peopleBox .name{text-align: center; font-size: 20px;padding: 5px;}
   	.graduate{text-align: center;}
